@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player Design -Easy Tutorials</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/230bf5bee7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+<nav>
+    <div class="circle">
+        <i class="fa-solid fa-angle-left"></i>
+    </div>
+    <div class="circle">
+        <i class="fa-solid fa-bars"></i>
+        </div>
+</nav>
+<img src="op.png" alt="" class="song-img">
+<h1>I love Lord</h1>
+<p>Your favour will always follow me</p>
+<audio id="song">
+    <source src="y2mate.com - Goodness Of God LIVE  Jenn Johnson  VICTORY.mp3" type="audio/mpeg">
+
+</audio>
+<input type="range"value="0" id="progress">
+
+<div class="controls">
+<div><i class="fa-solid fa-backward"></i></div>
+<div onclick="playPause()"><i class="fa-solid fa-pause" id="ctrlIcon"></i></div>
+<div><i class="fa-solid fa-forward"></i></div>
+    
+</div>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
